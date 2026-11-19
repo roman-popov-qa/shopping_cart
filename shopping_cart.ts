@@ -61,4 +61,8 @@ const cart: ShoppingCart = {
     items: [myOrder1, myOrder2],
     totalAmount: total,
 };
+
+
+
+console.log(`Items: ${cart.items[0]?.product.name} x ${cart.items[0]?.quantity}, ${cart.items[1]?.product.name} x ${cart.items[1]?.quantity}`);
 console.log(`Total Amount: ${cart.totalAmount}`);
